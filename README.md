@@ -8,9 +8,9 @@ Backend engineer working with Go, Rust, distributed systems, and inference infra
 
 #### Merged
 
-- [c8d: tolerate `NotFound` when walking children for disk usage (#52672)](https://github.com/moby/moby/pull/52672) — fixed a race that made `docker system df` fail while image pruning was running.
 - [Add CloudWatch entity support to `awslogs` (#52632)](https://github.com/moby/moby/pull/52632) — added service, environment, and custom entity attributes to container logs.
 - [Fix `label!=` filters for unlabeled images (#52338)](https://github.com/moby/moby/pull/52338) — corrected containerd image pruning when the requested label is missing.
+- [c8d: tolerate `NotFound` when walking children for disk usage (#52672)](https://github.com/moby/moby/pull/52672) — fixed a race that made `docker system df` fail while image pruning was running.
 
 #### In progress
 
